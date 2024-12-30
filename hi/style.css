@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Sets the font for the body */
+    background-color: black; /* Change background color to black */
+    color: white; /* Change text color to white for better contrast */
+    margin: 0; /* Removes default margin */
+    padding: 20px; /* Adds padding around the body */
+    display: flex; /* Uses flexbox for layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+#login-container, #app-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background for containers */
+    padding: 30px; /* Padding inside containers */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    width: 300px; /* Fixed width for containers */
+    text-align: center; /* Centers text inside containers */
+}
+
+h1 {
+    font-size: 24px; /* Font size for main headings */
+    color: #fff; /* White color for text */
+}
+
+h2 {
+    font-size: 20px; /* Font size for subheadings */
+    color: red; /* Change color to red for the bleeding calculator section */
+    margin-top: 20px; /* Margin above subheadings */
+}
+
+input[type="text"], input[type="number"], input[type="date"], input[type="password"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding inside input fields */
+    margin: 10px 0; /* Margin above and below input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for input fields */
+    color: black; /* Change text color to black for input fields */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside buttons */
+    font-size: 16px; /* Font size for buttons */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#clock {
+    font-size: 18px; /* Font size for the clock */
+    margin: 10px 0; /* Margin above and below the clock */
+    color: #fff; /* White color for the clock */
+}
+
+.reminder-section, .calculator-section {
+    margin-top: 20px; /* Margin above sections */
+    padding: 10px; /* Padding inside sections */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners for sections */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background color for sections */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points from lists */
+    padding: 0; /* Removes padding from lists */
+}
+
+li {
+    background: #e0f7fa; /* Light cyan background for list items */
+    margin: 5px 0; /* Margin above and below list items */
+    padding: 10px; /* Padding inside list items */
+    border-radius: 5px; /* Rounded corners for list items */
+}
